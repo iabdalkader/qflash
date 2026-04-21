@@ -1,0 +1,22 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bolt-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe566"/>
+      <stop offset="45%" stop-color="#ffc800"/>
+      <stop offset="100%" stop-color="#c89500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="512" height="512" rx="90" fill="#1a1a1a"/>
+
+  <!-- Q ring -->
+  <circle cx="240" cy="225" r="130" fill="none" stroke="#ffffff" stroke-width="68"/>
+
+  <!-- Q tail -->
+  <line x1="350" y1="335" x2="395" y2="380" stroke="#ffffff" stroke-width="68" stroke-linecap="square"/>
+
+  <!-- Lightning bolt -->
+  <polygon points="280,55 200,245 255,245 170,460 330,215 272,215 340,55"
+           fill="url(#bolt-grad)"/>
+</svg>

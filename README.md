@@ -1,7 +1,18 @@
-# Tauri + Vanilla TS
+<p align="center">
+  <img src="src/icons/qflash-logo.svg" width="128" height="128" alt="QFlash logo">
+</p>
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
+<h1 align="center">QFlash</h1>
 
-## Recommended IDE Setup
+<p align="center">
+  A simple tool for managing LittleFS flash storage on Arduino Uno-Q via ADB and OpenOCD.
+</p>
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Building
+
+Requires Node.js and Rust.
+
+```
+npm install
+npm run tauri dev
+```
